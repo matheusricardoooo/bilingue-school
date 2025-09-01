@@ -4,8 +4,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 35px;
-    position: fixed;
-    border: solid 2px black;
+}
+
+.logo img {
+    width: 140px;
+    height: 90px;
 }
 
 .links {
