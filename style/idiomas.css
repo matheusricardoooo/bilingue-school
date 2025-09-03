@@ -52,3 +52,16 @@
     display: none;
     gap: 60px;
 }
+
+@media screen and (max-width: 500px) {
+
+    .carrossel-ativo {
+        display: block;
+    }
+
+    .card {
+        width: 150px;
+        height: 250px;
+    }
+
+}
