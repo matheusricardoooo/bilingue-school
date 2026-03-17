@@ -1,0 +1,84 @@
+#idioms {
+    width: 100vw;
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-idioms {
+    background-color: #FF0000;
+    width: 60vw;
+    height: 120vh;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    place-items: center;
+    border-radius: 15px;
+}
+
+.img-card {
+    width: 250px;
+    height: 400px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .card-idioms {
+        height: 150vh;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    #idioms {
+        height: 300vh;
+    }
+
+    .card-idioms {
+        width: 50vw;
+        height: 270vh;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        row-gap: 40px;
+    }
+
+    .img-card {
+        width: 230px;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .card-idioms {
+        width: 70vw;
+        height: 250vh;
+    }
+
+    .img-card {
+        width: 200px;
+        height: 320px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    #idioms {
+        height: 250vh;
+    }
+
+    .card-idioms {
+        height: 200vh;
+    }
+
+    .img-card {
+        width: 150px;
+        height: 250px;
+    }
+
+}
