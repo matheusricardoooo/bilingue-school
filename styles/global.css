@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Poppins", serif;
+    overflow-x: hidden;
 }
