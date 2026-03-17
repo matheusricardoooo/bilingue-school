@@ -1,7 +1,7 @@
 header {
     width: 100vw;
     background-color: #fff;
-    padding: 13px 40px;
+    padding: 10px 40px;
     position: fixed;
 }
 
@@ -30,7 +30,7 @@ header {
     color: #FF0303;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     transition: 0.1s ease;
 }
 
