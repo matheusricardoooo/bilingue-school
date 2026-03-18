@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 
 .card-idioms {
@@ -58,9 +59,13 @@
 
 @media screen and (max-width: 500px) {
 
+    #idioms {
+        height: 300vh;
+    }
+
     .card-idioms {
         width: 70vw;
-        height: 310vh;
+        height: 280vh;
     }
 
     .img-card {
