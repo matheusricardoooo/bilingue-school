@@ -84,6 +84,12 @@ select {
 
 @media screen and (max-width: 450px) {
 
+    #registration {
+        justify-content: center;
+        gap: 60px;
+        height: 130vh;
+    }
+
     .campo {
         margin: 0;
         margin: 10px 40px;
