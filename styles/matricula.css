@@ -1,0 +1,110 @@
+#registration {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+
+.formm {
+  width: 30vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff0000;
+  border-radius: 15px;
+  border: 5px solid #fff;
+  box-shadow: 10px 10px 90px #ff0000;
+}
+
+.content-form {
+  margin: 20px 0px 0px 0px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 50px;
+}
+
+label {
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  height: 5vh;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  color: #ff0000;
+}
+
+select {
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 100%;
+  height: 5vh;
+}
+
+
+.btn-form {
+  width: 79%;
+  height: 7vh;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 30px 50px;
+  font-size: 1rem;
+  color: #ff0000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-form:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1100px) {
+
+    #registration {
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .formm {
+        width: 60vw;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .campo {
+        margin: 0;
+        margin: 10px 40px;
+    }
+
+    .img-logo-school {
+        width: 200px;
+    }
+
+    .formm {
+        width: 80vw;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .btn-form {
+        width: 75%;
+        height: 5vh;
+        margin: 0;
+        margin: 30px 40px;
+    }
+
+}
