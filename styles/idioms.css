@@ -1,6 +1,6 @@
 #idioms {
     width: 100vw;
-    height: 160vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +23,12 @@
 
 @media screen and (max-width: 1300px) {
 
+    #idioms {
+        height: 200vh;
+    }
+
     .card-idioms {
-        height: 150vh;
+        height: 180vh;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -33,12 +37,12 @@
 @media screen and (max-width: 850px) {
 
     #idioms {
-        height: 300vh;
+        height: 380vh;
     }
 
     .card-idioms {
         width: 50vw;
-        height: 270vh;
+        height: 340vh;
         display: flex;
         flex-direction: column;
         padding-top: 40px;
@@ -56,7 +60,7 @@
 
     .card-idioms {
         width: 70vw;
-        height: 280vh;
+        height: 310vh;
     }
 
     .img-card {
@@ -69,11 +73,11 @@
 @media screen and (max-width: 380px) {
 
     #idioms {
-        height: 250vh;
+        height: 300vh;
     }
 
     .card-idioms {
-        height: 200vh;
+        height: 270vh;
     }
 
     .img-card {
